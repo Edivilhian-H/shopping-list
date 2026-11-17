@@ -1,5 +1,20 @@
 header {
   & div {
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.562rem;
+    gap: 0.437rem;
+
+    & img {
+      width: 30.513px;
+      height: 23.333px;
+    }
+
+    & h1 {
+      color: var(--content-secondary);
+
+      font-weight: var(--fw-semiBold);
+    }
   }
 }
