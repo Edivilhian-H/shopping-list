@@ -24,23 +24,24 @@
 
     <main>
       <div class="container">
-        <div class="back">
-          <a href="#">
-            <img src="./assets/icons/arrow.svg" alt="Botão de voltar"
-          /></a>
+        <div class="fixed">
+          <div class="back">
+            <a href="#">
+              <img src="./assets/icons/arrow.svg" alt="Botão de voltar"
+            /></a>
+          </div>
+
+          <h1>Compras da semana</h1>
+
+          <form action="">
+            <input
+              type="text"
+              class="input-text"
+              placeholder="Adicione um novo item"
+            />
+            <button class="btn">Adicionar item</button>
+          </form>
         </div>
-
-        <h1>Compras da semana</h1>
-
-        <form action="">
-          <input
-            type="text"
-            class="input-text"
-            placeholder="Adicione um novo item"
-          />
-          <button class="btn">Adicionar item</button>
-        </form>
-
         <ul role="list">
           <li>
             <input type="checkbox" name="" id="" class="input-checkbox" />
@@ -194,10 +195,10 @@
     </main>
 
     <footer>
-      <div class="alert">
+      <div class="alert container hiden">
         <img src="./assets/icons/erro.svg" alt="" />
         <span>O item foi removido da lista</span>
-        <img src="./assets/icons/delete-small.svg" alt="" />
+        <img src="./assets/icons/delete.svg" alt="" />
       </div>
     </footer>
   </body>

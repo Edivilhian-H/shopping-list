@@ -25,8 +25,13 @@
   margin-inline: auto;
 }
 
-@media (width >= 80em) {
 
+
+.hiden{
+  display: none;
+}
+
+@media (width >= 80em) {
   .desktop-only {
     display: initial;
   }
@@ -34,5 +39,4 @@
   .container {
     --max-width: 80rem;
   }
-
 }
