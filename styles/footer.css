@@ -30,8 +30,14 @@ footer {
       line-height: 1.25rem;
     }
 
-    & img:nth-child(3) {
+    & button {
       margin-left: auto;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
     }
   }
 }
